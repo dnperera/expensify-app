@@ -16,3 +16,7 @@
 const address =['50 Miller Ranch Ct.','San Rafael',94903,'California'];
 const[street,city,,state] = address;
 console.log(`Current Address - ${street} ${city} ${state}`);
+
+const item =['Coffee(hot)','$2.00','$2.50','$2.75'];
+const [type,,price] = item;
+console.log(`A mediom ${type} costs ${price}`);
